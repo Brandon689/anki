@@ -1,11 +1,13 @@
 package main
 
 // Anki Data Abbreviation.
+
 type AnkiDeck struct {
-	Name        string
-	Cards       []AnkiCard
-	CSS         string
-	HTMLFormats []AnkiHTMLFormat
+	Name         string
+	TemplateName string
+	Cards        []AnkiCard
+	CSS          string
+	HTMLFormats  []AnkiHTMLFormat
 }
 
 type AnkiCard struct {
@@ -72,7 +74,7 @@ type AnkiModel struct {
 	Mod   int    `json:"mod"`
 	Usn   int    `json:"usn"`
 	Sortf int    `json:"sortf"`
-	Did   string `json:"did"`
+	//Did   string `json:"did"`
 	Tmpls []struct {
 		Name  string      `json:"name"`
 		Ord   int         `json:"ord"`

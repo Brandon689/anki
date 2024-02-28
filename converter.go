@@ -1,12 +1,31 @@
 package main
 
 import (
+	"os"
+	"path/filepath"
 	"strings"
 )
 
-func Convert(model AnkiModel, notes []Note) AnkiDeck {
+func fileExists(filename string) bool {
+	_, err := os.Stat(filename)
+	return !os.IsNotExist(err)
+}
+
+func ReadConvert(apkgFolder string) AnkiDeck {
+	dbFile := filepath.Join(apkgFolder, "collection.anki21")
+	if !fileExists(dbFile) {
+		dbFile = "collection.anki2"
+	}
+	form := sqlColTable(dbFile)
+	cards := sqlNotesTable(dbFile)
+	deck := convert(form, cards)
+	deck.Name = filepath.Base(apkgFolder)
+	return deck
+}
+
+func convert(model AnkiModel, notes []Note) AnkiDeck {
 	var ad AnkiDeck
-	ad.Name = model.Name
+	ad.TemplateName = model.Name
 	ad.CSS = model.CSS
 	ad.Cards = []AnkiCard{}
 	ad.HTMLFormats = []AnkiHTMLFormat{}

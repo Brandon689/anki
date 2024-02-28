@@ -3,30 +3,32 @@ package main
 import (
 	"fmt"
 	_ "github.com/mattn/go-sqlite3"
-	"path/filepath"
-	"strings"
 )
+
+type MyStruct struct {
+	Items map[string]Item `json:"items"`
+}
+
+type Item struct {
+	S int `json:"s"`
+}
 
 func main() {
 
-	apkgFilePath := "./apkg/Japanese_Core_2000_2k_-_Sorted_w_Audio.apkg"
+	apkgFilePath := "./apkg/Japanese_course_based_on_Tae_Kims_grammar_guide__anime.apkg"
 
+	dir := readAPKGFile(apkgFilePath)
+
+	deck := ReadConvert(dir)
+	WriteJson(deck, fmt.Sprintf("./apkg/%s.json", deck.Name))
+
+	//folder := strings.TrimSuffix(apkgFilePath, filepath.Ext(apkgFilePath))
+	//dbFile := filepath.Join(folder, "collection.anki21")
+	//form := sqlColTable(dbFile)
+	//cards := sqlNotesTable(dbFile)
 	//
-	//readAPKGFile(apkgFilePath)
-
-	folder := strings.TrimSuffix(apkgFilePath, filepath.Ext(apkgFilePath))
-	dbFile := filepath.Join(folder, "collection.anki2")
-	form := sqlColTable(dbFile)
-	cards := sqlNotesTable(dbFile)
-
-	for i := 0; i < len(form.Flds); i++ {
-		fmt.Println(form.Flds[i].Name + ":")
-
-		fields := strings.Split(cards[i].Flds, "\u001F")
-		fmt.Println(fields[i] + "\n")
-	}
-
-	deck := Convert(form, cards)
-	html := renderHTMLCard(deck, 0, false, false, 0)
-	WriteFile("./apkg/flash.html", html)
+	//deck := convert(form, cards)
+	//WriteJson(deck, fmt.Sprintf("./apkg/%s.json", deck.Name))
+	//html := renderHTMLCard(deck, 0, false, false, 0)
+	//WriteFile("./apkg/flash.html", html)
 }

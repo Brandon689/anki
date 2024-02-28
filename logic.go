@@ -99,10 +99,27 @@ func sqlColTable(filePath string) AnkiModel {
 		); err != nil {
 			log.Fatal(err)
 		}
-		substring := col.Models[1:]
-		startIndex := strings.Index(substring, "{")
-		innerJSON := substring[startIndex:]
-		innerJSON = innerJSON[:len(innerJSON)-1]
+		// not feasible when there is gr8 than 1 len object
+		//substring := col.Models[1:]
+		//startIndex := strings.Index(substring, "{")
+		//innerJSON := substring[startIndex:]
+		//innerJSON = innerJSON[:len(innerJSON)-1]
+
+		var innerJSON string
+		var result map[string]json.RawMessage
+		err := json.Unmarshal([]byte(col.Models), &result)
+
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		for _, value := range result {
+			//fmt.Printf("Key -> %s, Value -> %s\n", key, string(value))
+			val := string(value)
+			if len(innerJSON) < len(val) {
+				innerJSON = val
+			}
+		}
 
 		var models AnkiModel
 
@@ -162,7 +179,7 @@ func rename(destPath string) {
 			if err != nil {
 				panic(err)
 			}
-			fmt.Printf("Renamed %s to %s\n", oldPath, newPath)
+			//fmt.Printf("Renamed %s to %s\n", oldPath, newPath)
 		} else if os.IsNotExist(err) {
 			fmt.Printf("File %s does not exist, skipping...\n", oldPath)
 		} else {
@@ -201,7 +218,7 @@ func unzip(f *zip.File, destPath string) bool {
 	return true
 }
 
-func readAPKGFile(apkgFilePath string) {
+func readAPKGFile(apkgFilePath string) string {
 	apkgData, err := os.ReadFile(apkgFilePath)
 	if err != nil {
 		log.Fatal(err)
@@ -216,7 +233,7 @@ func readAPKGFile(apkgFilePath string) {
 	destPath := filepath.Join(zipDir, folderName)
 	err = os.MkdirAll(destPath, 0755)
 	if err != nil {
-		return
+		return ""
 	}
 
 	// Iterate through the files in the zip archive
@@ -226,4 +243,5 @@ func readAPKGFile(apkgFilePath string) {
 
 	// Make human readable
 	rename(destPath)
+	return destPath
 }
