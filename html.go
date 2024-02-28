@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func htmlCard(deck AnkiDeck, index int, question bool, BSide bool, formatIndex int) string {
+func renderHTMLCard(deck AnkiDeck, index int, question bool, BSide bool, formatIndex int) string {
 	var html string
 	if question {
 		if BSide {

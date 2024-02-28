@@ -27,7 +27,6 @@ func main() {
 	}
 
 	deck := Convert(form, cards)
-	//htmlQA(form, cards[55], true)
-	html := htmlCard(deck, 0, false, false, 0)
+	html := renderHTMLCard(deck, 0, false, false, 0)
 	WriteFile("./apkg/flash.html", html)
 }
