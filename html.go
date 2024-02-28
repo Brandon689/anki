@@ -25,8 +25,14 @@ func renderHTMLCard(deck AnkiDeck, index int, question bool, BSide bool, formatI
 
 	card := deck.Cards[index]
 	for i := 0; i < len(card.Fields); i++ {
-		html = strings.Replace(html, "{{"+card.Fields[i].Key+"}}", card.Fields[i].Value, -1)
+		if card.Fields[i].Key == "Image" {
+			html = strings.Replace(html, "{{"+card.Fields[i].Key+"}}", card.Fields[i].Value, -1)
+			//html = strings.Replace(html, "{{"+card.Fields[i].Key+"}}", deck.Name+"/"+card.Fields[i].Value, -1)
+		} else {
+			html = strings.Replace(html, "{{"+card.Fields[i].Key+"}}", card.Fields[i].Value, -1)
+		}
 	}
+	html = strings.Replace(html, "<img src=\"", "<img src=\""+deck.Name+"\\", 1)
 	html += "<style>\n" + deck.CSS + "\n</style>"
 	return html
 }

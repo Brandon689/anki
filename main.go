@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	apkgFilePath := "./apkg/Kanji_in_Context_Revised_Edition_2024_Edit.apkg"
+	apkgFilePath := "./apkg/Japanese_course_based_on_Tae_Kims_grammar_guide__anime.apkg"
 
 	dir := readAPKGFile(apkgFilePath)
 
@@ -18,9 +18,8 @@ func main() {
 	//dbFile := filepath.Join(folder, "collection.anki21")
 	//form := sqlColTable(dbFile)
 	//cards := sqlNotesTable(dbFile)
-	//
 	//deck := convert(form, cards)
 	//WriteJson(deck, fmt.Sprintf("./apkg/%s.json", deck.Name))
-	//html := renderHTMLCard(deck, 0, false, false, 0)
-	//WriteFile("./apkg/flash.html", html)
+	html := renderHTMLCard(deck, 6, true, false, 1)
+	WriteFile("./apkg/"+deck.Name+".html", html)
 }
