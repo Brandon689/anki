@@ -1,5 +1,35 @@
 package main
 
+// Anki Data Abbreviation.
+type AnkiDeck struct {
+	Name        string
+	Cards       []AnkiCard
+	CSS         string
+	HTMLFormats []AnkiHTMLFormat
+}
+
+type AnkiCard struct {
+	Fields []AnkiFieldKeyValue
+}
+
+type AnkiFieldKeyValue struct {
+	Key   string
+	Value string
+	Font  string
+	Order int
+}
+
+type AnkiHTMLFormat struct {
+	Name                        string
+	Order                       int
+	QuestionFormatHTMLTemplate  string
+	AnswerFormatHTMLTemplate    string
+	QuestionBFormatHTMLTemplate string
+	AnswerBFormatHTMLTemplate   string
+}
+
+// end
+
 type Note struct {
 	ID    int
 	GUID  string
