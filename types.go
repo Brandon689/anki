@@ -40,7 +40,7 @@ type Note struct {
 	USN   int
 	Tags  string
 	Flds  string
-	Sfld  int
+	Sfld  string
 	Csum  int
 	Flags int
 	Data  string

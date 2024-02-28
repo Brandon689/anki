@@ -5,17 +5,9 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 )
 
-type MyStruct struct {
-	Items map[string]Item `json:"items"`
-}
-
-type Item struct {
-	S int `json:"s"`
-}
-
 func main() {
 
-	apkgFilePath := "./apkg/Japanese_course_based_on_Tae_Kims_grammar_guide__anime.apkg"
+	apkgFilePath := "./apkg/Kanji_in_Context_Revised_Edition_2024_Edit.apkg"
 
 	dir := readAPKGFile(apkgFilePath)
 

@@ -14,7 +14,7 @@ func fileExists(filename string) bool {
 func ReadConvert(apkgFolder string) AnkiDeck {
 	dbFile := filepath.Join(apkgFolder, "collection.anki21")
 	if !fileExists(dbFile) {
-		dbFile = "collection.anki2"
+		dbFile = filepath.Join(apkgFolder, "collection.anki2")
 	}
 	form := sqlColTable(dbFile)
 	cards := sqlNotesTable(dbFile)
