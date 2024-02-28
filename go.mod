@@ -1,4 +1,4 @@
-module github.com/Brandon689/ankiexport
+module github.com/Brandon689/anki
 
 go 1.21
 
