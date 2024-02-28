@@ -201,43 +201,6 @@ func unzip(f *zip.File, destPath string) bool {
 	return true
 }
 
-func htmlQA(model AnkiModel, note Note, q bool) {
-	css := model.CSS
-	var str string
-
-	if q == true {
-		str = model.Tmpls[0].Qfmt
-	} else {
-		str = model.Tmpls[0].Afmt
-	}
-	str = strings.Replace(str, "furigana:", "", -1)
-	for i := 0; i < len(model.Flds); i++ {
-		fmt.Println(model.Flds[i].Name + ":")
-
-		fields := strings.Split(note.Flds, "\u001F")
-		fmt.Println(fields[i] + "\n")
-
-		str = strings.Replace(str, "{{"+model.Flds[i].Name+"}}", fields[i], -1)
-	}
-
-	str += "<style>\n" + css + "\n</style>"
-
-	file, err := os.Create("./apkg/flashcard.html")
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer func(file *os.File) {
-		err := file.Close()
-		if err != nil {
-
-		}
-	}(file)
-	_, err = file.WriteString(str)
-	if err != nil {
-		log.Fatal(err)
-	}
-}
-
 func readAPKGFile(apkgFilePath string) {
 	apkgData, err := os.ReadFile(apkgFilePath)
 	if err != nil {
