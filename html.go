@@ -1,13 +1,12 @@
-package logic
+package anki
 
 import (
-	"github.com/Brandon689/anki/types"
 	"log"
 	"os"
 	"strings"
 )
 
-func RenderHTMLCard(deck types.AnkiDeck, index int, question bool, BSide bool, formatIndex int) string {
+func RenderHTMLCard(deck AnkiDeck, index int, question bool, BSide bool, formatIndex int) string {
 	var html string
 	if question {
 		if BSide {
@@ -38,7 +37,7 @@ func RenderHTMLCard(deck types.AnkiDeck, index int, question bool, BSide bool, f
 	return html
 }
 
-func htmlQA(model types.AnkiModel, note types.Note, q bool) {
+func htmlQA(model AnkiModel, note Note, q bool) {
 	css := model.CSS
 	var str string
 

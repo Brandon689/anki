@@ -1,14 +1,13 @@
-package util
+package anki
 
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Brandon689/anki/types"
 	"log"
 	"os"
 )
 
-func WriteJson(deck types.AnkiDeck, outputFile string) {
+func WriteJson(deck AnkiDeck, outputFile string) {
 	jsonData, err := json.MarshalIndent(deck, "", "    ")
 	if err != nil {
 		fmt.Println("Error marshaling to JSON:", err)

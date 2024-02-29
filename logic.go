@@ -1,4 +1,4 @@
-package logic
+package anki
 
 import (
 	"archive/zip"
@@ -6,7 +6,6 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
-	"github.com/Brandon689/anki/types"
 	"io"
 	"log"
 	"os"
@@ -14,7 +13,7 @@ import (
 	"strings"
 )
 
-func sqlNotesTable(filePath string) []types.Note {
+func sqlNotesTable(filePath string) []Note {
 	db, err := sql.Open("sqlite3", filePath)
 	if err != nil {
 		log.Fatal(err)
@@ -31,10 +30,10 @@ func sqlNotesTable(filePath string) []types.Note {
 
 		}
 	}(rows)
-	var notes []types.Note
+	var notes []Note
 	// Iterate through the result set
 	for rows.Next() {
-		var note types.Note
+		var note Note
 		if err := rows.Scan(
 			&note.ID,
 			&note.GUID,
@@ -62,7 +61,7 @@ func sqlNotesTable(filePath string) []types.Note {
 	return notes
 }
 
-func sqlColTable(filePath string) types.AnkiModel {
+func sqlColTable(filePath string) AnkiModel {
 	db, err := sql.Open("sqlite3", filePath)
 	if err != nil {
 		log.Fatal(err)
@@ -82,7 +81,7 @@ func sqlColTable(filePath string) types.AnkiModel {
 
 	// Iterate through the result set
 	for rows.Next() {
-		var col types.Col
+		var col Col
 		if err := rows.Scan(
 			&col.ID,
 			&col.Crt,
@@ -122,7 +121,7 @@ func sqlColTable(filePath string) types.AnkiModel {
 			}
 		}
 
-		var models types.AnkiModel
+		var models AnkiModel
 
 		err = json.Unmarshal([]byte(innerJSON), &models)
 		if err != nil {
@@ -139,7 +138,7 @@ func sqlColTable(filePath string) types.AnkiModel {
 	//if err != nil {
 	//	panic(err)
 	//}
-	return types.AnkiModel{}
+	return AnkiModel{}
 }
 
 func rename(destPath string) {
@@ -159,9 +158,9 @@ func rename(destPath string) {
 		panic(err)
 	}
 	// Convert map to slice of structs
-	var myDataSlice []types.AnkiMedia
+	var myDataSlice []AnkiMedia
 	for id, file := range dataMap {
-		myDataSlice = append(myDataSlice, types.AnkiMedia{
+		myDataSlice = append(myDataSlice, AnkiMedia{
 			ID:   id,
 			File: file,
 		})

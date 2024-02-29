@@ -1,4 +1,4 @@
-package types
+package anki
 
 // Anki Data Abbreviation.
 
