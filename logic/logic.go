@@ -1,4 +1,4 @@
-package main
+package logic
 
 import (
 	"archive/zip"
@@ -6,6 +6,7 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
+	"github.com/Brandon689/anki/types"
 	"io"
 	"log"
 	"os"
@@ -13,7 +14,7 @@ import (
 	"strings"
 )
 
-func sqlNotesTable(filePath string) []Note {
+func sqlNotesTable(filePath string) []types.Note {
 	db, err := sql.Open("sqlite3", filePath)
 	if err != nil {
 		log.Fatal(err)
@@ -30,10 +31,10 @@ func sqlNotesTable(filePath string) []Note {
 
 		}
 	}(rows)
-	var notes []Note
+	var notes []types.Note
 	// Iterate through the result set
 	for rows.Next() {
-		var note Note
+		var note types.Note
 		if err := rows.Scan(
 			&note.ID,
 			&note.GUID,
@@ -61,7 +62,7 @@ func sqlNotesTable(filePath string) []Note {
 	return notes
 }
 
-func sqlColTable(filePath string) AnkiModel {
+func sqlColTable(filePath string) types.AnkiModel {
 	db, err := sql.Open("sqlite3", filePath)
 	if err != nil {
 		log.Fatal(err)
@@ -81,7 +82,7 @@ func sqlColTable(filePath string) AnkiModel {
 
 	// Iterate through the result set
 	for rows.Next() {
-		var col Col
+		var col types.Col
 		if err := rows.Scan(
 			&col.ID,
 			&col.Crt,
@@ -121,7 +122,7 @@ func sqlColTable(filePath string) AnkiModel {
 			}
 		}
 
-		var models AnkiModel
+		var models types.AnkiModel
 
 		err = json.Unmarshal([]byte(innerJSON), &models)
 		if err != nil {
@@ -138,7 +139,7 @@ func sqlColTable(filePath string) AnkiModel {
 	//if err != nil {
 	//	panic(err)
 	//}
-	return AnkiModel{}
+	return types.AnkiModel{}
 }
 
 func rename(destPath string) {
@@ -158,9 +159,9 @@ func rename(destPath string) {
 		panic(err)
 	}
 	// Convert map to slice of structs
-	var myDataSlice []AnkiMedia
+	var myDataSlice []types.AnkiMedia
 	for id, file := range dataMap {
-		myDataSlice = append(myDataSlice, AnkiMedia{
+		myDataSlice = append(myDataSlice, types.AnkiMedia{
 			ID:   id,
 			File: file,
 		})
@@ -218,7 +219,7 @@ func unzip(f *zip.File, destPath string) bool {
 	return true
 }
 
-func readAPKGFile(apkgFilePath string) string {
+func ReadAPKGFile(apkgFilePath string) string {
 	apkgData, err := os.ReadFile(apkgFilePath)
 	if err != nil {
 		log.Fatal(err)
