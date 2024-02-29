@@ -25,14 +25,17 @@ import (
 
 func main() {
 	apkgFilePath := "./path/to/your/file.apkg"
-	cardData, err := anki.ReadAPKGFile(apkgFilePath)
+	deckData, err := anki.ReadAPKGFile(apkgFilePath)
 	if err != nil {
 		fmt.Println("Error:", err)
 		return
 	}
-
-	// Process cardData (a struct representing the JSON format)
-	fmt.Println(cardData)
+	
+	anki.WriteJson(deckData, fmt.Sprintf("./%s.json", deckData.Name))
+	
+	html := anki.RenderHTMLCard(deck, 6, true, false, 1)
+	anki.WriteFile("./apkg/"+deck.Name+".html", html)
+	
 }
 ```
 ### Features

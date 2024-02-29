@@ -218,7 +218,7 @@ func unzip(f *zip.File, destPath string) bool {
 	return true
 }
 
-func ReadAPKGFile(apkgFilePath string) string {
+func ReadAPKGFile(apkgFilePath string, destDir string) string {
 	apkgData, err := os.ReadFile(apkgFilePath)
 	if err != nil {
 		log.Fatal(err)
@@ -230,7 +230,10 @@ func ReadAPKGFile(apkgFilePath string) string {
 	}
 	zipDir := filepath.Dir(apkgFilePath)
 	folderName := strings.TrimSuffix(filepath.Base(apkgFilePath), filepath.Ext(apkgFilePath))
-	destPath := filepath.Join(zipDir, folderName)
+	destPath := destDir
+	if destPath == "" {
+		destPath = filepath.Join(zipDir, folderName)
+	}
 	err = os.MkdirAll(destPath, 0755)
 	if err != nil {
 		return ""
