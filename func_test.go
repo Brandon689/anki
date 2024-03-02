@@ -57,7 +57,7 @@ func TestConvert(t *testing.T) {
 }
 
 func TestReadConvert(t *testing.T) {
-	r, _ := ReadConvert("C:\\Users\\Brandon\\Videos\\ni\\Hiragana_Test_Deck")
+	r, _ := ReadConvert("./testsuite/Hiragana_Test_Deck")
 	if r.Name == "" {
 		t.Errorf("no deck name")
 	}
