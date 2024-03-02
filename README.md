@@ -24,10 +24,9 @@ import (
 )
 
 func main() {
-
-  srcFile := "./testsuite/Hiragana_Test_Deck.apkg"
+	srcFile := "./testsuite/Hiragana_Test_Deck.apkg"
 	destFolder := "./testsuite/Hiragana_Test_Deck"
-
+	
 	_, err := ExtractAPKGFile(srcFile, destFolder)
 	if err != nil {
 		panic(err)
@@ -35,7 +34,7 @@ func main() {
 	colTable, _ := sqlColTable("./testsuite/test_collection.anki2")
 	notesTable, _ := sqlNotesTable("./testsuite/test_collection.anki2")
 	r, _ := Convert(colTable, notesTable)
-  fmt.Println(r.Name)
+	fmt.Println(r.Name)
 }
 ```
 ### Features
