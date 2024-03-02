@@ -1,0 +1,1689 @@
+{
+    "Name": "",
+    "TemplateName": "Basic Kana Card",
+    "Cards": [
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "あ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "a[sound:1_a.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "い",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "i[sound:2_i.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "う",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "u[sound:3_u.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "え",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "e[sound:4_e.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "お",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "o[sound:5_o.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "か",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ka[sound:6_ka.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "き",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ki[sound:7_ki.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "く",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ku[sound:8_ku.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "け",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ke[sound:9_ke.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "こ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ko[sound:10_ko.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "さ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "sa[sound:11_sa.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "し",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "shi[sound:12_shi.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "す",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "su[sound:13_su.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "せ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "se[sound:14_se.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "そ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "so[sound:15_so.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "た",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ta[sound:16_ta.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ち",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "chi[sound:17_chi.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "つ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "tsu[sound:18_tsu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "て",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "te[sound:19_te.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "と",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "to[sound:20_to.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "な",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "na[sound:21_na.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "に",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ni[sound:22_ni.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぬ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "nu[sound:23_nu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ね",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ne[sound:24_ne.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "の",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "no[sound:25_no.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "は",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ha[sound:26_ha.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ひ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "hi[sound:27_hi.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ふ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "fu[sound:28_hu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "へ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "he[sound:29_he.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ほ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ho[sound:30_ho.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ま",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ma[sound:31_ma.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "み",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "mi[sound:32_mi.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "む",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "mu[sound:33_mu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "め",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "me[sound:34_me.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "も",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "mo[sound:35_mo.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "や",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ya[sound:36_ya.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ゆ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "yu[sound:37_yu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "よ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "yo[sound:38_yo.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ら",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ra[sound:39_ra.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "り",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ri[sound:40_ri.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "る",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ru[sound:41_ru.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "れ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "re[sound:42_re.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ろ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ro[sound:43_ro.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "わ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "wa[sound:44_wa.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "を",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "wo[sound:45_wo.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ん",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "n[sound:46_n.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "が",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ga[sound:d1-ga.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぎ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "gi[sound:d2-gi.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぐ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "gu[sound:d3-gu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "げ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ge[sound:d4-ge.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ご",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "go[sound:d5-go.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ざ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "za[sound:d6-za.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "じ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ji[sound:d7-ji.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ず",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "zu[sound:d8-zu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぜ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ze[sound:d9-ze.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぞ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "zo[sound:d10-zo.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "だ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "da[sound:d11-da.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぢ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "dzi[sound:d12-dzi.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "づ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "dzu[sound:d13-dzu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "で",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "de[sound:d14-de.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ど",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "do[sound:d15-do.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ば",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ba[sound:d16-ba.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "び",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "bi[sound:d17-bi.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぶ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "bu[sound:d18-bu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "べ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "be[sound:d19-be.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぼ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "bo[sound:d20-bo.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぱ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "pa[sound:d21-pa.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぴ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "pi[sound:d22-pi.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぷ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "pu[sound:d23-pu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぺ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "pe[sound:d24-pe.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぽ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "po[sound:d25-po.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "きゃ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "kya[sound:c1-kya.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "きゅ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "kyu[sound:c2-kyu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "きょ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "kyo[sound:c3-kyo.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぎゃ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "gya[sound:c4-gya.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぎゅ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "gyu[sound:c5-gyu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぎょ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "gyo[sound:c6-gyo.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "しゃ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "sha[sound:c7-sha.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "しゅ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "shu[sound:c8-shu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "しょ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "sho[sound:c9-sho.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "じゃ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ja[sound:c10-ja.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "じゅ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ju[sound:c11-ju.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "じょ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "jo[sound:c12-jo.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ちゃ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "cha[sound:c13-cha.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ちゅ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "chu[sound:c14-chu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ちょ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "cho[sound:c15-cho.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "にゃ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "nya[sound:c16-nya.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "にゅ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "nyu[sound:c17-nyu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "にょ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "nyo[sound:c18-nyo.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ひゃ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "hya[sound:c19-hya.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ひゅ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "hyu[sound:c20-hyu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ひょ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "hyo[sound:c21-hyo.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "びゃ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "bya[sound:c22-bya.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "びゅ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "byu[sound:c23-byu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "びょ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "byo[sound:c24-byo.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぴゃ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "pya[sound:c25-pya.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぴゅ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "pyu[sound:c26-pyu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "ぴょ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "pyo[sound:c27-pyo.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "みゃ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "mya[sound:c28-mya.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "みゅ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "myu[sound:c29-myu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "みょ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "myo[sound:c30-myo.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "りゃ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "rya[sound:c31-rya.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "りゅ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ryu[sound:c32-ryu.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "Fields": [
+                {
+                    "Key": "Kana",
+                    "Value": "りょ",
+                    "Font": "Arial",
+                    "Order": 0
+                },
+                {
+                    "Key": "Romaji",
+                    "Value": "ryo[sound:c33-ryo.mp3]",
+                    "Font": "Arial",
+                    "Order": 1
+                }
+            ]
+        }
+    ],
+    "CSS": ".card {\n    font-family: arial;\n    font-size: 60px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.deck {\n    font-size: 20px;\n}\n\n.romaji {\n    font-size: 60px; \n    margin-bottom: 40px;\n}\n\n\n",
+    "HTMLFormats": [
+        {
+            "Name": "Kana",
+            "Order": 0,
+            "QuestionFormatHTMLTemplate": "{{Kana}}\n\u003cbr\u003e\n{{type:Romaji}}\n",
+            "AnswerFormatHTMLTemplate": "{{FrontSide}}\n\n\u003chr id=answer\u003e\n\n\u003cdiv class=\"romaji\t\"\u003e{{Romaji}}\u003c/span\u003e",
+            "QuestionBFormatHTMLTemplate": "",
+            "AnswerBFormatHTMLTemplate": ""
+        },
+        {
+            "Name": "Romaji",
+            "Order": 1,
+            "QuestionFormatHTMLTemplate": "\u003cdiv class=\"deck\"\u003e{{Deck}}\u003c/div\u003e\n{{Romaji}}\n",
+            "AnswerFormatHTMLTemplate": "\u003cdiv class=\"deck\"\u003e{{Deck}}\u003c/div\u003e\n{{Romaji}}\n\n\u003chr id=answer\u003e\n\n{{Kana}}",
+            "QuestionBFormatHTMLTemplate": "",
+            "AnswerBFormatHTMLTemplate": ""
+        }
+    ]
+}
